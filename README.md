@@ -1,12 +1,45 @@
-# React + Vite
+# Admin Dashboard V2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and fully functional admin dashboard built with:
 
-Currently, two official plugins are available:
+- 🔥 React (Frontend)
+- 🛠️ Node.js + Express (Backend)
+- 🗄️ MySQL (Database)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- User authentication (Login/Logout)
+- Dashboard overview with statistics
+- User management
+- Responsive layout
+- RESTful API with Express
+- MySQL database integration
+- Clean and modular codebase
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ Tech Stack
+
+- Frontend: React, React Router, Context API
+- Backend: Node.js, Express
+- Database: MySQL
+- Tools: Git, Postman, dotenv
+
+## 📁 Project Structure
+
+
+## 🛠️ How to Run Locally
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/admin-dashboard-v2.git
+cd admin-dashboard-v2
+
+
+cd backend
+npm install
+# Create .env file with DB credentials
+npm start
+
+
+cd frontend
+npm install
+npm start
