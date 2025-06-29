@@ -21,7 +21,7 @@ export default function Sidebar() {
                   صفحه اصلی</Link>
             </li>
             <li>
-                <Link to='/product'>
+                <Link to='/products'>
                   <MdOutlineProductionQuantityLimits className='icon'/>
                   محصولات</Link>
             </li>

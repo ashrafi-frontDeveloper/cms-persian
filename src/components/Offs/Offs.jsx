@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Errorbox from '../Error/Errorbox'
 export default function Offs() {
   return (
-    <div>Offs</div>
+    <>
+      <Errorbox message="هیچ تخفیفی اعمال نشد" />
+    </>
   )
 }

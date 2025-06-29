@@ -1,7 +1,10 @@
 import React from 'react'
+import Errorbox from '../Error/Errorbox'
 
 export default function Users() {
   return (
-    <div>Users</div>
+    <>
+      <Errorbox message="هیچ کاربری یافت نشد" />
+    </>
   )
 }
